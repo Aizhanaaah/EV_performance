@@ -34,3 +34,8 @@ class environmentalImpact:
         self.CO2emissions = CO2emissions
         self.EVincentives = EVincentives
         self.CO2emissions_total = self.CO2emissions * self.EVincentives
+
+
+
+
+#create an sql table of rows of vehicles and columns of attributes
