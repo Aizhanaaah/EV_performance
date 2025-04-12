@@ -15,3 +15,22 @@ class maintenance:
         self.repair_cost = repair_cost
         self.spareParts_availability = spareParts_availability
         self.service_history = service_history
+
+class interior:
+    def __init__(self, seat_quality_vs_adjustablility, infotainment_system, climate_control):
+        self.seat_quality_vs_adjustablity = seat_quality_vs_adjustablility
+        self.infotainment_system = infotainment_system
+        self.climate_control = climate_control
+
+class costVSvalue:
+    def __init__(self, price, insurance_cost, taxes, resale_value):
+        self.price = price
+        self.insurance_cost = insurance_cost
+        self.taxes = taxes
+        self.resale_value = resale_value
+
+class environmentalImpact:
+    def __init__(self, CO2emissions, EVincentives):
+        self.CO2emissions = CO2emissions
+        self.EVincentives = EVincentives
+        self.CO2emissions_total = self.CO2emissions * self.EVincentives
